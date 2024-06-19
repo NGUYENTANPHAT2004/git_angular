@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "name": "dssdsbb",
+      "image": "123333",
+      "price": "kodfd",
+      "desc": "ko",
+      "quality": "232323",
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "tttp1704@Gmail.com",
+      "password": "$2a$10$S3oLA6WKZBMq5pM1MC5nV.U536xW9brPBESa5CIPR9s6XJgP7o97O",
+      "name": "dsdsd",
+      "id": 1
+    },
+    {
+      "email": "tttp1704@gmail.com",
+      "password": "$2a$10$JZKTjf9a.zWRa3nvfardV.wDUvHLZzxIF.nHlzjb01euWS8GPbAuu",
+      "name": "qqqqq",
+      "id": 2
+    },
+    {
+      "email": "phat1@gmail.com",
+      "password": "$2a$10$MzfooyYOQ2/hVOgNGcbhfeprThd1OtJSzhhdAhONBUHPKK.cJ86na",
+      "name": "dssđ",
+      "id": 3
+    },
+    {
+      "email": "phat12@gmail.com",
+      "password": "$2a$10$OsrVZn07No9TjHcrfZwm1uHIe8q9Aj83ouAfIR4hvupBBSOlTQj7G",
+      "name": "p23232",
+      "id": 4
+    },
+    {
+      "email": "phat1sdsd@gmail.com",
+      "password": "$2a$10$Rn3GM5Hm2PiTgw6gebnF4.XQAHZ7m1X9xpT9GYiD5m3PZVlDMNCQC",
+      "name": "ttttdsdsd",
+      "id": 5
+    }
+  ],
+  "student": [
+    {
+      "name": "ewewewsđsd 3",
+      "age": "2323",
+      "phone": "232322323",
+      "email": "gfggg",
+      "id": 1
+    }
+  ]
+}

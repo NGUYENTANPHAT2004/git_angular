@@ -1,0 +1,11 @@
+<form [formGroup]="productform" (ngSubmit)="Onsubmit()" >
+  <input type="text" placeholder="nhap email" formControlName="email">
+  <input type="text" placeholder="nhap mật khẩu" formControlName="password">
+  <button type="submit">gửi</button>
+</form>
+<div *ngIf="productform.get('email')?.touched && productform.get('email')?.invalid">
+ email ko hợp lệ
+</div>
+<div *ngIf="productform.get('password')?.touched && productform.get('password')?.invalid">
+ mật khẩu ko hợp lệ
+</div>

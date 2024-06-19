@@ -1,0 +1,24 @@
+<p>add works!</p>
+<form [formGroup]="productform" (ngSubmit)="Onsubmit()" >
+   <input type="text" placeholder="nhap tên" formControlName="name">
+   <input type="text" placeholder="nhap giá" formControlName="image">
+   <input type="text" placeholder="nhap ảnh" formControlName="price">
+   <input type="text" placeholder="nhap số lượng" formControlName="quality">
+   <input type="text" placeholder="nhap mô tả" formControlName="desc">
+   <button type="submit">gửi</button>
+</form>
+<div *ngIf="productform.get('name')?.touched && productform.get('name')?.invalid">
+   tên sp ko hợp lệ
+</div>
+<div *ngIf="productform.get('price')?.touched && productform.get('price')?.invalid">
+  giá sp ko hợp lệ
+</div>
+<div *ngIf="productform.get('image')?.touched && productform.get('image')?.invalid">
+  ảnh sp ko hợp lệ
+</div>
+<div *ngIf="productform.get('quality')?.touched && productform.get('quality')?.invalid">
+số lượng sp ko hợp lệ
+</div>
+<div *ngIf="productform.get('desc')?.touched && productform.get('desc')?.invalid">
+  mô tả sp ko hợp lệ
+</div>
